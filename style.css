@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.header{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px 0px rgba(139, 139, 139, 0.65);
+}
+.header-box{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    min-width: 1280px;
+}
+.header div #logo {
+    padding:9px 0px 9px 19px;
+    height: 104px;
+    width: 209px;
+}
+.links{ 
+    padding-right: 39px;
+}
+.links a{
+    text-decoration: none;
+    margin-left: 24px;
+    color: #777777;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+}
+.frete{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    min-width: 1280px;
+    position: sticky;
+    top: 0;
+    font-weight: bold;
+    text-align: center;
+    height: 40px;
+    padding: 10px;
+    width: 100%;
+    background-color: #C2185B;
+    color: #FFFFFF;
+}
+.headerBanner #banner{
+    max-width: 1280px;
+    min-width: none;
+    height: 235px;
+    width: 100%;
+}
+.index{
+    min-width: 1280px;
+    max-width: 1280px;
+}
+.index h1{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 82px;
+    text-align: center;
+    padding-top: 68px;
+    margin-bottom: 82px;
+}
+.corpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 207.6px;
+}
+.corpo #imgMenor{
+    height: 600px;
+    width: 400px;
+}
+.corpo #imgMaior{
+    height: 757.9425048828125px;
+    width: 600px;
+    padding-left: 54px;
+}
+.corpoDois{
+    height: 662px;
+    background-color: #C2185B;
+    margin-bottom: 163px;
+}
+.corpoDois h1{
+    color: #FFFFFF;
+}
+.allImg{
+    display: flex;
+    justify-content: center;
+}
+.allImg div{
+    height: 388px;
+    width: 260px;
+    background-color: white;
+    margin-left: 18px;
+}
+.allImg div img{
+    height: 300px;
+    width: 260px;
+    margin-bottom: 18px;
+}
+.allImg div p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 11px;
+    color: #000000;
+}
+.allImg div .valor{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left: 11px;
+}
+.corpoTres {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 116px;
+}
+.bloco1{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 127px;
+    align-items: flex-end;
+}
+.bloco2{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: 105px;
+    margin-left: 28px;
+}
+.bloco1 img{
+    height: 663px;
+    width: 513px;
+}
+.bloco2 img{
+    height: 939px;
+    width: 507px;
+}
+
+.bloco1 p{
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+}
+.bloco1 #detalhes {
+    margin-top: 15px;
+    display: flex;
+    height: 99px;
+    width: 403px;
+    background-color:#C2185B;
+    margin-bottom: 55px;
+    justify-content: center;
+    align-items: center;
+}
+.bloco1 #detalhes a{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 39px;
+    line-height: 53px;
+    text-decoration: none;
+}
+
+.footer{
+    background-color: #C2185B;
+}
+.footer-box{
+    height: 248px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    min-width: 1280px;
+    max-width: 1280px;
+}
+.footer #logoFooter{
+    background-image: url();
+    height: 123px;
+    width: 233px;
+}
+.footer #logoFooter p{
+    padding-left: 15px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.lista{
+    align-self: center;
+}
+.lista ul p{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.lista ul li{
+    list-style-type: none;
+    
+}
+.lista ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media (min-width: 480px) {  
+    body, .index, .footer-box,.headerBanner{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 1280px) {
+    body, .index, .footer-box,.headerBanner{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
